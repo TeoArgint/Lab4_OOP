@@ -1,5 +1,5 @@
 #include "Dreptunghi.h"
-#include <iostream>
+#include<iostream>
 
 Dreptunghi::Dreptunghi() {
     this->lungime = 0;
@@ -37,3 +37,8 @@ void Dreptunghi::setLatime(int latime) {
     this->latime = latime;
 }
 
+Dreptunghi &Dreptunghi::operator = (const Dreptunghi &s) {
+    this->lungime = s.lungime;
+    this->latime = s.latime;
+    return *this;
+}

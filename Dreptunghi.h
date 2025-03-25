@@ -1,7 +1,6 @@
 #ifndef DREPTUNGHI_H
 #define DREPTUNGHI_H
 
-
 class Dreptunghi {
 private:
     int lungime;
@@ -14,9 +13,9 @@ public:
     int getLatime();
     void setLungime(int lungime);
     void setLatime(int latime);
+    Dreptunghi &operator = (const Dreptunghi &s);
+    bool operator == (const Dreptunghi &s);
     ~Dreptunghi();
 };
-
-
 
 #endif //DREPTUNGHI_H

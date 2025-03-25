@@ -61,6 +61,24 @@ build CMakeFiles/LAB4.dir/Dreptunghi.cpp.obj: CXX_COMPILER__LAB4_unscanned_Debug
   OBJECT_DIR = CMakeFiles\LAB4.dir
   OBJECT_FILE_DIR = CMakeFiles\LAB4.dir
 
+build CMakeFiles/LAB4.dir/Test.cpp.obj: CXX_COMPILER__LAB4_unscanned_Debug C$:/Users/TEOAr/Desktop/LAB4/Test.cpp || cmake_object_order_depends_target_LAB4
+  DEP_FILE = CMakeFiles\LAB4.dir\Test.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LAB4.dir
+  OBJECT_FILE_DIR = CMakeFiles\LAB4.dir
+
+build CMakeFiles/LAB4.dir/ArieDreptunghi.cpp.obj: CXX_COMPILER__LAB4_unscanned_Debug C$:/Users/TEOAr/Desktop/LAB4/ArieDreptunghi.cpp || cmake_object_order_depends_target_LAB4
+  DEP_FILE = CMakeFiles\LAB4.dir\ArieDreptunghi.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LAB4.dir
+  OBJECT_FILE_DIR = CMakeFiles\LAB4.dir
+
+build CMakeFiles/LAB4.dir/PerimetruDreptunghi.cpp.obj: CXX_COMPILER__LAB4_unscanned_Debug C$:/Users/TEOAr/Desktop/LAB4/PerimetruDreptunghi.cpp || cmake_object_order_depends_target_LAB4
+  DEP_FILE = CMakeFiles\LAB4.dir\PerimetruDreptunghi.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LAB4.dir
+  OBJECT_FILE_DIR = CMakeFiles\LAB4.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LAB4
@@ -69,7 +87,7 @@ build CMakeFiles/LAB4.dir/Dreptunghi.cpp.obj: CXX_COMPILER__LAB4_unscanned_Debug
 #############################################
 # Link the executable LAB4.exe
 
-build LAB4.exe: CXX_EXECUTABLE_LINKER__LAB4_Debug CMakeFiles/LAB4.dir/main.cpp.obj CMakeFiles/LAB4.dir/Dreptunghi.cpp.obj
+build LAB4.exe: CXX_EXECUTABLE_LINKER__LAB4_Debug CMakeFiles/LAB4.dir/main.cpp.obj CMakeFiles/LAB4.dir/Dreptunghi.cpp.obj CMakeFiles/LAB4.dir/Test.cpp.obj CMakeFiles/LAB4.dir/ArieDreptunghi.cpp.obj CMakeFiles/LAB4.dir/PerimetruDreptunghi.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LAB4.dir
